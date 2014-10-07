@@ -1,0 +1,11 @@
+[package]
+
+name = "penny_arcade"
+version = "0.0.1"
+authors = ["Mike Steder <steder@gmail.com>"]
+
+[dependencies.url]
+git = "https://github.com/servo/rust-url"
+
+[dependencies.hyper]
+git = "https://github.com/hyperium/hyper.git"
